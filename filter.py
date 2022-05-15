@@ -1,4 +1,8 @@
-def my_filter(function_or_None, iterable):
+import typing
+from typing import Any, Generator
+
+
+def my_filter(function_or_None: callable, iterable: typing.Iterable) -> Generator[Any, Any, None]:
     """
     :param function_or_None: function which allow us to do filter
     :param iterable: collection of items which we are checking

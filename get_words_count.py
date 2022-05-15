@@ -1,7 +1,7 @@
 import string
 
 
-def count_words(text: str):
+def count_words(text: str) -> dict:
     """
     :param text: full text to check for words length
     :return: map of words list and their length

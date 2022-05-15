@@ -1,7 +1,7 @@
-def words_length(sentence: str):
+def words_length(sentence: str) -> list:
     """
-    :param sentence: check for words length
-    :return: each length for words in the list
+    :param sentence: The sentence to check for words length
+    :return: List of words length
     """
     words_list = sentence.split()
     return [len(word) for word in words_list]
